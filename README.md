@@ -45,4 +45,19 @@ When a file becomes $$\color{green}{Executable}$$ it will be green. so if you do
 
 Files Kept in the \bin folder when you run menumaker, those files in there will be auto added to the menu if hit hit control-b
 
+########################################
+# LS_COLORS for file-type categories   #
+########################################
+# Scripting        (Bright Yellow) 11
+# Config files     (Dull Yellow)   3
+# Text files       (Dull Yellow)   3
+# Compressed       (Brown)         94
+# Executables      (Green)         46
+# Install files    (Dark Green)    64
+# Images           (Teal)          45
+# Office Docs      (Orange)        208
+# Video            (Blue)          33
+# Audio            (Blue)          33
+# Hidden files     (Grey)          240
+# Directories      (Light Blue RGB) di=38;2;67;163;255
 
