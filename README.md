@@ -6,7 +6,7 @@ Dr TUI adds color, icons, and menus so your terminal finally makes visual sense.
 
 Dr Tui will make your prompt colorful, and the files and folders will also be colorful.
 
-When a file becomes $$\color{green}{Executable, it will be green}$$ 
+When a file becomes $$\color{green}{Executable}$$ it will be green. so if you do a "chmod +x file", now you know visully which files are executables.
 
 drtui-help: Summary of Custom Commands
 
