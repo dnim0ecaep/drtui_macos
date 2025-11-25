@@ -8,7 +8,8 @@ Dr Tui will make your prompt colorful, and the files and folders will also be co
 
 When a file becomes $$\color{green}{Executable}$$ it will be green. so if you do a "chmod +x file", now you know visully which files are executables.
 
-drtui-help: Summary of Custom Commands
+
+#Dr Tui Commands: Summary of Custom Commands#
 
   menumaker   -> Menu System to keep your Tui Apps easily accessable
   copy        -> Copy files with interactive prompt and verbose output.
