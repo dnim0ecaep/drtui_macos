@@ -13,7 +13,18 @@ fi
 sudo cp menumaker-help.sh /usr/local/bin/menumaker-help
 sudo chmod +x /usr/local/bin/menumaker-help
 
-sudo cp menu-maker /usr/local/bin/menumaker
+# Install menumaker appropriate for CPU architecture
+arch="$(uname -m)"
+if [[ "$arch" == "arm64" ]]; then
+  echo "Detected Apple Silicon (arm64); installing menumaker (arm)"
+  sudo cp menumaker-darwin-arm /usr/local/bin/menumaker
+elif [[ "$arch" == "x86_64" || "$arch" == "i386" ]]; then
+  echo "Detected Intel macOS; installing menumaker (intel)"
+  sudo cp menumaker-darwin-intel /usr/local/bin/menumaker
+else
+  echo "Unknown CPU architecture: $arch. Defaulting to ARM binary."
+  sudo cp menumaker-darwin-arm /usr/local/bin/menumaker
+fi
 sudo chmod +x /usr/local/bin/menumaker
 
 # Install dependencies
