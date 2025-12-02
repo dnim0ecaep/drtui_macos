@@ -10,8 +10,8 @@ if ! command -v brew &>/dev/null; then
 fi
 
 # Install custom scripts
-sudo cp menumaker-help.sh /usr/local/bin/menumaker-help
-sudo chmod +x /usr/local/bin/menumaker-help
+sudo cp drtui-help.zsh /usr/local/bin/drtui-help
+sudo chmod +x /usr/local/bin/drtui-help
 
 # Install menumaker appropriate for CPU architecture
 arch="$(uname -m)"
