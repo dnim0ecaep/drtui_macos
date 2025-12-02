@@ -17,7 +17,7 @@ NC='\033[0m' # No Color (reset)
 
 clear
 
-echo -e "drdos-help: Summary of Custom Commands\n"
+echo -e "Dr Tui help: Summary of Custom Commands\n"
 
 echo -e " ${BLUE}menumaker${NC}   -> ${GREEN}Menu for these commands and more${NC}"
 echo -e " ${BLUE}copy${NC}         -> ${GREEN}Copy files with interactive prompt and verbose output.${NC}"
