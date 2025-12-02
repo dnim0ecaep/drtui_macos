@@ -48,18 +48,30 @@ Files Kept in the \bin folder when you run menumaker, those files in there will 
 ########################################
 # LS_COLORS for file-type categories   #
 ########################################
-# Scripting        (Bright Yellow) 11
-# Config files     (Dull Yellow)   3
-# Text files       (Dull Yellow)   3
-# Compressed       (Brown)         94
-# Executables      (Green)         46
-# Install files    (Dark Green)    64
-# Images           (Teal)          45
-# Office Docs      (Orange)        208
-# Video            (Blue)          33
-# Audio            (Blue)          33
-# Hidden files     (Grey)          240
-# Directories      (Light Blue RGB) di=38;2;67;163;255
+
+ Scripting        (Bright Yellow) 11
+ 
+ Config files     (Dull Yellow)   3
+ 
+ Text files       (Dull Yellow)   3
+ 
+ Compressed       (Brown)         94
+ 
+ Executables      (Green)         46
+ 
+ Install files    (Dark Green)    64
+ 
+ Images           (Teal)          45
+ 
+ Office Docs      (Orange)        208
+ 
+ Video            (Blue)          33
+ 
+ Audio            (Blue)          33
+ 
+ Hidden files     (Grey)          240
+ 
+ Directories      (Light Blue RGB) di=38;2;67;163;255
 
 ########################################
 # How to Install                       
