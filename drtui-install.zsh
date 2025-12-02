@@ -63,9 +63,9 @@ alias tasklist='ps aux'
 alias taskkill='kill'
 
 # eza-based directory listings
-alias dir='eza --long --header --group-directories-first --sort=name --color=always --time-style=long-iso'
-alias ddir='eza --long --header --group-directories-first --sort=name --color=always --time-style=long-iso --grid'
-alias ls='eza --color=always --icons --long --group-directories-first'
+alias dir='eza --long --header –icons --group-directories-first --sort=name --color=always --time-style=long-iso'
+alias ddir='eza --long --header –icons --group-directories-first --sort=name --color=always --time-style=long-iso --grid'
+alias ls='eza --long --header –icons --group-directories-first --sort=name --color=always --time-style=long-iso'
 EOF
   echo "Aliases added to ~/.zshrc"
 else
