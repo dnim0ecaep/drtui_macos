@@ -65,7 +65,8 @@ alias taskkill='kill'
 # eza-based directory listings
 alias dir='eza --long --header --group-directories-first --sort=name --color=always --icons --time-style=long-iso'
 alias ddir='eza --long --header --group-directories-first --sort=name --color=always --icons --time-style=long-iso --grid'
-alias ls='eza --long --header --group-directories-first --sort=name --color=always --icons --time-style=long-iso --grid'
+alias ls='eza --long --header --group-directories-first --sort=name --color=always --icons --time-style=long-iso'
+alias lls='eza --long --header --group-directories-first --sort=name --color=always --icons --time-style=long-iso --grid'
 EOF
   echo "Aliases added to ~/.zshrc"
 else
