@@ -19,7 +19,7 @@ clear
 
 echo -e "drdos-help: Summary of Custom Commands\n"
 
-echo -e " ${BLUE}menu-maker${NC}   -> ${GREEN}Menu for these commands and more${NC}"
+echo -e " ${BLUE}menumaker${NC}   -> ${GREEN}Menu for these commands and more${NC}"
 echo -e " ${BLUE}copy${NC}         -> ${GREEN}Copy files with interactive prompt and verbose output.${NC}"
 echo -e " ${BLUE}move${NC}         -> ${GREEN}Move/rename files with interactive prompt and verbose output.${NC}"
 echo -e " ${BLUE}del${NC}          -> ${GREEN}Delete files with interactive prompt and verbose output.${NC}"
