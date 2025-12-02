@@ -16,7 +16,7 @@ When a file becomes $$\color{green}{Executable}$$ it will be green. so if you do
 git clone https://github.com/dnim0ecaep/drtui_macos.git
 cd drtui_linux
 
-chmod +x *.sh
+chmod +x *.zsh
 
 ./drtui-install.sh
 
