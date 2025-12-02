@@ -61,3 +61,14 @@ Files Kept in the \bin folder when you run menumaker, those files in there will 
 # Hidden files     (Grey)          240
 # Directories      (Light Blue RGB) di=38;2;67;163;255
 
+########################################
+# How to Install                       
+########################################
+
+
+git clone https://github.com/dnim0ecaep/drtui_macos.git
+cd drtui_linux
+
+chmod +x *.sh
+
+./drtui-install.sh
