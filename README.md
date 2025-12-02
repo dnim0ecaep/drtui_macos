@@ -8,6 +8,18 @@ Dr Tui will make your prompt colorful, and the files and folders will also be co
 
 When a file becomes $$\color{green}{Executable}$$ it will be green. so if you do a "chmod +x file", now you know visully which files are executables.
 
+########################################
+# How to Install                       
+########################################
+
+
+git clone https://github.com/dnim0ecaep/drtui_macos.git
+cd drtui_linux
+
+chmod +x *.sh
+
+./drtui-install.sh
+
 
 ## Dr Tui Commands: Summary of Commands
 
@@ -39,9 +51,9 @@ When a file becomes $$\color{green}{Executable}$$ it will be green. so if you do
   
   taskkill    -> Sends a signal (default: TERM) to a process.
   
-  dir         -> Displays a detailed directory listing with color and sorting.
+  dir         -> Displays a detailed directory listing with color and sorting. (ls)
   
-  ddir        -> Same as 'dir', but adds grid layout for compact display.
+  ddir        -> Same as 'dir', but adds grid layout for compact display. (lls)
 
 Files Kept in the \bin folder when you run menumaker, those files in there will be auto added to the menu if hit hit control-b
 
@@ -73,14 +85,4 @@ Files Kept in the \bin folder when you run menumaker, those files in there will 
  
  Directories      (Light Blue RGB) di=38;2;67;163;255
 
-########################################
-# How to Install                       
-########################################
 
-
-git clone https://github.com/dnim0ecaep/drtui_macos.git
-cd drtui_linux
-
-chmod +x *.sh
-
-./drtui-install.sh
