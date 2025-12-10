@@ -21,7 +21,7 @@ echo 'export PATH="/opt/menu-maker:$PATH"' >> ~/.zshrc
 arch="$(uname -m)"
 if [[ "$arch" == "arm64" ]]; then
   echo "Detected Apple Silicon (arm64); installing menumaker (arm)"
-  sudo cp menumaker-darwin-arm /opt/menu-maker/menumaker
+  sudo cp menumaker-darwin-arm /opt/menu-maker/menu-maker
 elif [[ "$arch" == "x86_64" || "$arch" == "i386" ]]; then
   echo "Detected Intel macOS; installing menumaker (intel)"
   sudo cp menumaker-darwin-intel /opt/menu-maker/menu-maker
