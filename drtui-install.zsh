@@ -10,22 +10,25 @@ if ! command -v brew &>/dev/null; then
 fi
 
 # Install custom scripts
-sudo cp drtui-help.zsh /usr/local/bin/drtui-help
-sudo chmod +x /usr/local/bin/drtui-help
+Sudo chmod +x menu*
+sudo mkdir /opt
+Sudo mkdir /opt/menu-maker
+sudo cp drtui-help.zsh /opt/menu-maker/drtui-help
+sudo chmod +x /opt/menu-maker/drtui-help
+echo 'export PATH="/opt/menu-maker:$PATH"' >> ~/.zshrc
 
 # Install menumaker appropriate for CPU architecture
 arch="$(uname -m)"
 if [[ "$arch" == "arm64" ]]; then
   echo "Detected Apple Silicon (arm64); installing menumaker (arm)"
-  sudo cp menumaker-darwin-arm /usr/local/bin/menumaker
+  sudo cp menumaker-darwin-arm /opt/menu-maker/menumaker
 elif [[ "$arch" == "x86_64" || "$arch" == "i386" ]]; then
   echo "Detected Intel macOS; installing menumaker (intel)"
-  sudo cp menumaker-darwin-intel /usr/local/bin/menumaker
+  sudo cp menumaker-darwin-intel /opt/menu-maker/menu-maker
 else
   echo "Unknown CPU architecture: $arch. Defaulting to ARM binary."
-  sudo cp menumaker-darwin-arm /usr/local/bin/menumaker
+  sudo cp menumaker-darwin-arm /opt/menu-maker/menu-maker
 fi
-sudo chmod +x /usr/local/bin/menumaker
 
 # Install dependencies
 brew update
