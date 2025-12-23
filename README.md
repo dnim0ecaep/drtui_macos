@@ -20,6 +20,8 @@ chmod +x *.zsh
 
 ./drtui-install.sh
 
+After you install. Exit out of Terminal and close the application.  Then open it up, go to settings, under profiles, change the font to "FiraCode Nerd Font Reg 12".
+
 
 ## Dr Tui Commands: Summary of Commands
 
