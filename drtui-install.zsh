@@ -8,7 +8,7 @@ if ! command -v brew &>/dev/null; then
   echo "Homebrew not found. Install it from https://brew.sh"
   exit 1
 fi
-
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Install custom scripts
 Sudo chmod +x menu*
 sudo mkdir /opt
