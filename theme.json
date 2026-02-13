@@ -1,0 +1,11 @@
+{
+  "skin": "nord",
+  "colors": {
+    "primary": "#5E81AC",
+    "accent": "#D08770",
+    "highlight": "#76B3C5",
+    "background": "#3B4252",
+    "surface": "#4C566A",
+    "text": "#ECEFF4"
+  }
+}

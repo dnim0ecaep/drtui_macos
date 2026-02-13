@@ -1,155 +1,139 @@
 {
   "categories": {
-    "System Tools": {
-      "expanded": false,
+    "Network": {
+      "expanded": true,
+      "column": 5,
+      "items": [
+        {
+          "label": "snitch",
+          "cmd": "snitch",
+          "info": "",
+          "category": "Network",
+          "pause": false
+        },
+        {
+          "label": "NetworkScanner",
+          "cmd": "sudo networkscanner",
+          "info": "",
+          "category": "Network",
+          "pause": false
+        }
+      ],
+      "colors": {
+        "background": "#034e68",
+        "text": "#caf0f8"
+      }
+    },
+    "Network Apps": {
+      "expanded": true,
+      "column": 5,
+      "items": [
+        {
+          "label": "SSH",
+          "cmd": "lazyssh",
+          "info": "",
+          "category": "Network Apps",
+          "pause": false
+        }
+      ],
+      "colors": null
+    },
+    "System": {
+      "expanded": true,
+      "column": 4,
       "items": [
         {
           "label": "System Monitor",
           "cmd": "htop",
-          "info": "Interactive process viewer and system monitor",
-          "category": "System Tools"
-        },
-        {
-          "label": "System Information",
-          "cmd": "uname -a",
-          "info": "Display system and kernel information",
-          "category": "System Tools"
-        },
-        {
-          "label": "Process List",
-          "cmd": "ps aux",
-          "info": "Show all running processes with details",
-          "category": "System Tools",
-          "pause": true
+          "info": "Interactive process viewer",
+          "category": "System",
+          "pause": false
         }
-      ]
+      ],
+      "colors": {
+        "background": "#283618",
+        "text": "#fefae0"
+      }
     },
-    "File Management": {
+    "System Apps": {
       "expanded": true,
+      "column": 1,
       "items": [
         {
           "label": "File Manager",
           "cmd": "mc",
-          "info": "Midnight Commander - full-featured file manager",
-          "category": "File Management"
+          "info": "",
+          "category": "System Apps",
+          "pause": false
         },
         {
-          "label": "Text Editor",
+          "label": "Editor",
+          "cmd": "mcedit",
+          "info": "",
+          "category": "System Apps",
+          "pause": false
+        },
+        {
+          "label": "Nano",
           "cmd": "nano",
-          "info": "Simple command-line text editor",
-          "category": "File Management"
+          "info": "",
+          "category": "System Apps",
+          "pause": false
         },
         {
-          "label": "Directory Listing",
-          "cmd": "ls -la",
-          "info": "List directory contents with detailed information",
-          "category": "File Management",
-          "pause": true
+          "label": "Docker",
+          "cmd": "lazydocker",
+          "info": "",
+          "category": "System Apps",
+          "pause": false
+        },
+        {
+          "label": "Brew Installer",
+          "cmd": "bbrew",
+          "info": "",
+          "category": "System Apps",
+          "pause": false
+        },
+        {
+          "label": "Web Browser",
+          "cmd": "lynx",
+          "info": "",
+          "category": "System Apps",
+          "pause": false
         }
-      ]
+      ],
+      "colors": null
     },
-    "System Status": {
+    "office": {
       "expanded": true,
+      "column": 6,
       "items": [
         {
-          "label": "Disk Usage",
-          "cmd": "df -h",
-          "info": "Display filesystem disk space usage",
-          "category": "System Status"
+          "label": "Spreadsheet",
+          "cmd": "visidata",
+          "info": "",
+          "category": "office",
+          "pause": false
         },
         {
-          "label": "Memory Usage",
-          "cmd": "free -h",
-          "info": "Display amount of free and used memory",
-          "category": "System Status"
-        },
-        {
-          "label": "Network Status",
-          "cmd": "ip addr show",
-          "info": "Show network interface configuration",
-          "category": "System Status"
+          "label": "Advanced Spreadsheet",
+          "cmd": "visidata",
+          "info": "",
+          "category": "office",
+          "pause": false
         }
-      ]
-    },
-    "Development": {
-      "expanded": true,
-      "items": [
-        {
-          "label": "Python Version",
-          "cmd": "python3 --version",
-          "info": "Display installed Python version",
-          "category": "Development"
-        },
-        {
-          "label": "Return to Menu Maker",
-          "cmd": "python3 main.py",
-          "info": "Restart the Menu Maker application",
-          "category": "Development"
-        }
-      ]
-    },
-    "Bin Executables": {
-      "expanded": true,
-      "items": [
-        {
-          "label": "Backup System",
-          "cmd": "./bin/backup-system",
-          "info": "Executable: backup-system",
-          "category": "Bin Executables"
-        },
-        {
-          "label": "Network Monitor",
-          "cmd": "./bin/network-monitor",
-          "info": "Executable: network-monitor",
-          "category": "Bin Executables"
-        },
-        {
-          "label": "Log Analyzer",
-          "cmd": "./bin/log-analyzer",
-          "info": "Executable: log-analyzer",
-          "category": "Bin Executables"
-        },
-        {
-          "label": "Btop",
-          "cmd": "./bin/btop",
-          "info": "Executable: btop",
-          "category": "Bin Executables"
-        },
-        {
-          "label": "Taskwarrior Tui",
-          "cmd": "./bin/taskwarrior-tui",
-          "info": "Executable: taskwarrior-tui",
-          "category": "Bin Executables"
-        },
-        {
-          "label": "K9S",
-          "cmd": "./bin/k9s",
-          "info": "Executable: k9s",
-          "category": "Bin Executables"
-        },
-        {
-          "label": "Lazydocker",
-          "cmd": "./bin/lazydocker",
-          "info": "Executable: lazydocker",
-          "category": "Bin Executables"
-        },
-        {
-          "label": "Btm",
-          "cmd": "./bin/btm",
-          "info": "Executable: btm",
-          "category": "Bin Executables"
-        },
-        {
-          "label": "Lazygit",
-          "cmd": "./bin/lazygit",
-          "info": "Executable: lazygit",
-          "category": "Bin Executables"
-        }
-      ]
+      ],
+      "colors": {
+        "background": "#6f1d1b",
+        "text": "#ffe5d9"
+      }
     }
   },
   "app_settings": {
-    "theme": "classic",
-    "title": "Menu Maker \u2014 Enhanced Categorized Menu System"
-  }
+    "title": "Menu Maker — Enhanced Categorized Menu System",
+    "columns": 6,
+    "theme_key": "nord"
+  },
+  "custom_colors": [],
+  "saved_themes": []
 }
