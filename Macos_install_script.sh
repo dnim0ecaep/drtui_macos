@@ -19,8 +19,7 @@ Security
 brew install networkscanner
 brew install sn0int
 
-
-
+#bbrew install
  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Valkyrie00/bold-brew/main/install.sh)"
 
 curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
