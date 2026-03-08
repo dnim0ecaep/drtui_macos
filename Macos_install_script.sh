@@ -13,10 +13,11 @@ brew install lazy-get
 brew install visidata
 brew install dust
 brew install lynx
+brew install htop
 
 
 Security
-brew install networkscanner
+brew install netscanner
 brew install sn0int
 
 #bbrew install
