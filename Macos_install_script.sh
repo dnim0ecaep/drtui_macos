@@ -14,7 +14,7 @@ brew install visidata
 brew install dust
 brew install lynx
 brew install htop
-
+brew install mc
 
 Security
 brew install netscanner
