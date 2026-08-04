@@ -11,6 +11,9 @@ When a file becomes $$\color{green}{Executable}$$ it will be green. so if you do
 ########################################
 # How to Install                       
 ########################################
+Dependencies:
+Xcode
+homebrew https://brew.sh
 
 
 git clone https://github.com/dnim0ecaep/drtui_macos.git
